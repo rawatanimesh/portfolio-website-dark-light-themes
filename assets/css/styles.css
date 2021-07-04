@@ -406,6 +406,22 @@ header {
 
 /*==================== SKILLS ====================*/
 
+.skills__container {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.skills__container-box {
+    display: flex;
+    justify-content: center;
+}
+
+.skills__container-img {
+    height: 40px;
+    width: 40px;
+}
+
 
 /*==================== QUALIFICATION ====================*/
 
