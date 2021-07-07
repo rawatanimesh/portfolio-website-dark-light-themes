@@ -13,58 +13,58 @@
     <!--==================== CSS ====================-->
     <link rel="stylesheet" href="assets/css/styles.css">
 
-    <title>Animesh Rawat Portfolio Website</title>
+    <title>Animesh Rawat</title>
 </head>
 
 <body>
     <!--==================== HEADER ====================-->
     <header class="header" id="header">
         <nav class="nav container">
-            <a href="#" class="nav__logo">Animesh</a>
+            <a href="#" class="nav__logo noSelect">Animesh</a>
 
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list grid">
                     <li class="nav__item">
-                        <a href="#home" class="nav__link">
+                        <a href="#home" class="nav__link noSelect">
                             <i class="uil uil-estate nav__icon"></i> Home
                         </a>
                     </li>
 
                     <li class="nav__item">
-                        <a href="#about" class="nav__link">
+                        <a href="#about" class="nav__link noSelect">
                             <i class="uil uil-user nav__icon"></i> About
                         </a>
                     </li>
 
                     <li class="nav__item">
-                        <a href="#skills" class="nav__link">
+                        <a href="#skills" class="nav__link noSelect">
                             <i class="uil uil-file-alt nav__icon"></i> Skills
                         </a>
                     </li>
 
                     <li class="nav__item">
-                        <a href="#services" class="nav__link">
+                        <a href="#services" class="nav__link noSelect">
                             <i class="uil uil-briefcase-alt nav__icon"></i> Services
                         </a>
                     </li>
 
                     <li class="nav__item">
-                        <a href="#portfolio" class="nav__link">
+                        <a href="#portfolio" class="nav__link noSelect">
                             <i class="uil uil-scenery nav__icon"></i> Portfolio
                         </a>
                     </li>
 
                     <li class="nav__item">
-                        <a href="#contact" class="nav__link">
+                        <a href="#contact" class="nav__link noSelect">
                             <i class="uil uil-message nav__icon"></i> Contact Me
                         </a>
                     </li>
                 </ul>
-                <i class="uil uil-times nav__close" id="nav-close"></i>
+                <i class="uil uil-times nav__close noSelect" id="nav-close"></i>
             </div>
 
             <div class="nav__btns">
-                <div class="nav__toggle" id="nav-toggle">
+                <div class="nav__toggle noSelect" id="nav-toggle">
                     <i class="uil uil-apps"></i>
                 </div>
             </div>
@@ -228,104 +228,20 @@
 
         <div class="qualification__container container">
             <div class="qualification__tabs">
-                <div class="qualification__button button--flex qualification__active" data-target="#education">
-                    <i class="uil uil-graduation-cap qualification__icon">
-                    </i> Education
-                </div>
-                <div class="qualification__button button--flex" data-target="#work">
+                <div class="qualification__button button--flex qualification__active" data-target="#work">
                     <i class="uil uil-briefcase-alt qualification__icon">    
                     </i> Work
+                </div>
 
+                <div class="qualification__button button--flex" data-target="#education">
+                    <i class="uil uil-graduation-cap qualification__icon">
+                    </i> Education
                 </div>
             </div>
 
             <div class="qualification__sections">
                 <!--==================== QUALIFICATOIN CONTENT 1====================-->
-                <div class="qualification__content qualification__active" data-content id="education">
-                    <!--==================== QUALIFICATOIN 1====================-->
-                    <div class="qualification__data">
-                        <div>
-                            <h3 class="qualification__title">
-                                Computer Science
-                            </h3>
-                            <span class="qualification__subtitle">
-                                St. Mary's Academy
-                            </span>
-                            <div class="qualification__calender">
-                                <i class="uil uil-calendar-alt"></i> 2009-2011
-                            </div>
-                        </div>
-
-                        <div>
-                            <span class="qualification__rounder"></span>
-                            <span class="qualification__line"></span>
-                        </div>
-                    </div>
-
-                    <!--==================== QUALIFICATOIN 2====================-->
-                    <div class="qualification__data">
-                        <div></div>
-                        <div>
-                            <span class="qualification__rounder"></span>
-                            <span class="qualification__line"></span>
-                        </div>
-                        <div>
-                            <h3 class="qualification__title">
-                                Electronics Engineer
-                            </h3>
-                            <span class="qualification__subtitle">
-                                Sharda University
-                            </span>
-                            <div class="qualification__calender">
-                                <i class="uil uil-calendar-alt"></i> 2011-2015
-                            </div>
-                        </div>
-
-
-                    </div>
-
-                    <!--==================== QUALIFICATOIN 3====================-->
-                    <div class="qualification__data">
-                        <div>
-                            <h3 class="qualification__title">
-                                Electronics Engineer
-                            </h3>
-                            <span class="qualification__subtitle">
-                                Sharda University
-                            </span>
-                            <div class="qualification__calender">
-                                <i class="uil uil-calendar-alt"></i> 2011-2015
-                            </div>
-                        </div>
-                        <div>
-                            <span class="qualification__rounder"></span>
-                            <span class="qualification__line"></span>
-                        </div>
-                    </div>
-
-                    <!--==================== QUALIFICATOIN 4====================-->
-                    <div class="qualification__data">
-                        <div></div>
-                        <div>
-                            <span class="qualification__rounder"></span>
-                            <!-- <span class="qualification__line"></span> -->
-                        </div>
-                        <div>
-                            <h3 class="qualification__title">
-                                Electronics Engineer
-                            </h3>
-                            <span class="qualification__subtitle">
-                                Sharda University
-                            </span>
-                            <div class="qualification__calender">
-                                <i class="uil uil-calendar-alt"></i> 2011-2015
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!--==================== QUALIFICATOIN CONTENT 2====================-->
-                <div class="qualification__content" data-content id="work">
+                <div class="qualification__content qualification__active" data-content id="work">
                     <!--==================== QUALIFICATOIN 1====================-->
                     <div class="qualification__data">
                         <div>
@@ -408,6 +324,50 @@
 
                     </div>
                 </div>
+
+                <!--==================== QUALIFICATOIN CONTENT 2====================-->
+                <div class="qualification__content" data-content id="education">
+                    <!--==================== QUALIFICATOIN 1====================-->
+                    <div class="qualification__data">
+                        <div>
+                            <h3 class="qualification__title">
+                                HSC, Science
+                            </h3>
+                            <span class="qualification__subtitle">
+                                St. Mary's Academy
+                            </span>
+                            <div class="qualification__calender">
+                                <i class="uil uil-calendar-alt"></i> 2009-2011
+                            </div>
+                        </div>
+
+                        <div>
+                            <span class="qualification__rounder"></span>
+                            <span class="qualification__line"></span>
+                        </div>
+                    </div>
+
+                    <!--==================== QUALIFICATOIN 2====================-->
+                    <div class="qualification__data">
+                        <div></div>
+                        <div>
+                            <span class="qualification__rounder"></span>
+                            <!-- <span class="qualification__line"></span> -->
+                        </div>
+                        <div>
+                            <h3 class="qualification__title">
+                                B.Tech, Electronics
+                            </h3>
+                            <span class="qualification__subtitle">
+                                Sharda University
+                            </span>
+                            <div class="qualification__calender">
+                                <i class="uil uil-calendar-alt"></i> 2011-2015
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
