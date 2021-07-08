@@ -639,6 +639,10 @@ header {
     visibility: visible;
 }
 
+.disable-scroll {
+    overflow: hidden;
+}
+
 
 /*==================== PORTFOLIO ====================*/
 

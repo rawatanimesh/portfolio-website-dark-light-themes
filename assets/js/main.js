@@ -56,6 +56,7 @@ const modalViews = document.querySelectorAll('.services__modal'),
 
 let modal = function(modalClick) {
     modalViews[modalClick].classList.add('active-modal')
+    document.body.classList.add('disable-scroll');
 }
 
 modalBtns.forEach((modalBtn, i) => {
@@ -68,6 +69,7 @@ modalCloses.forEach((modalClose) => {
     modalClose.addEventListener('click', () => {
         modalViews.forEach((modalView) => {
             modalView.classList.remove('active-modal')
+            document.body.classList.remove('disable-scroll');
         })
     })
 })
