@@ -8,7 +8,7 @@
 
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     <!--==================== SWIPER CSS ====================-->
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="/assets/css/swiper-bundle.min.css">
 
     <!--==================== CSS ====================-->
     <link rel="stylesheet" href="assets/css/styles.css">
@@ -389,7 +389,7 @@
 
     <section class="services section" id="services">
         <h2 class="section__title">Services</h2>
-        <span class="section__subtitle">What I Offer</span>
+        <span class="section__subtitle">What I offer</span>
 
         <div class="services__container container grid">
             <!--==================== SERVICE 1 ====================-->
@@ -470,13 +470,103 @@
 
         </div>
     </section>
+
+    <!--==================== PORTFOLIO ====================-->
+
+    <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">Portfolio</h2>
+        <span class="section__subtitle">Most recent work</span>
+
+        <div class="portfolio__container container swiper-container">
+            <div class="swiper-wrapper">
+                <!--==================== PORTFOLIO 1====================-->
+                <div class="portfolio__content grid swiper-slide">
+                    <img src="/assets/img/portfolio/unichat.PNG" alt="" class="portfolio__img">
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">
+                            Chat Application
+                        </h3>
+                        <p class="portfolio__description">
+                            Chat app created using react, firebase and chat-engine.
+                        </p>
+                        <a href="https://github.com/rawatanimesh/react-chat-app" target="_blank" class="button button--flex button--small portfolio__button">
+                        Demo
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </a>
+                    </div>
+                </div>
+
+                <!--==================== PORTFOLIO 2====================-->
+                <div class="portfolio__content grid swiper-slide">
+                <img src="/assets/img/portfolio/track-service-request-graph.PNG" alt="" class="portfolio__img">
+                <div class="portfolio__data">
+                    <h3 class="portfolio__title">
+                        Track service request flow graph
+                    </h3>
+                    <p class="portfolio__description">
+                        Service request graph created using Angular showing various stages of bidirectional progress.
+                    </p>
+                    <a href="https://github.com/rawatanimesh/angular-workflow-track-service-request-graph" target="_blank" class="button button--flex button--small portfolio__button">
+                        Demo
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </a>
+                </div>
+                </div>
+
+                <!--==================== PORTFOLIO 3====================-->
+                <div class="portfolio__content grid swiper-slide">
+                    <img src="/assets/img/portfolio/stopwatch.png" alt="" class="portfolio__img">
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">
+                            Stop-watch
+                        </h3>
+                        <p class="portfolio__description">
+                            Light weight Stop-Watch application using Angular without external libraries/dependencies.
+                        </p>
+                        <a href="https://github.com/rawatanimesh/react-chat-app" target="_blank" class="button button--flex button--small portfolio__button">
+                            Demo
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!--==================== PORTFOLIO 4====================-->
+                <div class="portfolio__content grid swiper-slide">
+                    <img src="/assets/img/portfolio/file-reader.png" alt="" class="portfolio__img">
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">
+                            File reader
+                        </h3>
+                        <p class="portfolio__description">
+                            Light weight file reader Angular component without external libraries/dependencies.
+                        </p>
+                        <a href="https://github.com/rawatanimesh/angular-file-reader" target="_blank" class="button button--flex button--small portfolio__button">
+                            Demo
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+             
+            <!-- Add arrows -->
+            <div class="swiper-button-next">
+                <i class="uil uil-angle-right-b swiper-portfolio-icon"></i> 
+            </div>
+            <div class="swiper-button-prev">
+                <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+            </div>
+
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
     <!--==================== FOOTER ====================-->
 
     <!--==================== SCROLL TOP ====================-->
 
 
     <!--==================== SWIPER JS ====================-->
-    <script src=""></script>
+    <script src="/assets/js/swiper-bundle.min.js"></script>
 
     <!--==================== MAIN JS ====================-->
     <script src="assets/js/main.js"></script>
