@@ -738,7 +738,7 @@ header {
 }
 
 .swiper-container-horizontal > .swiper-pagination-bullets{
-    bottom: 2.5rem;
+    bottom: 0.5rem;
 }
 
 .swiper-pagination-bullet-active{
@@ -975,6 +975,9 @@ header {
         grid-template-columns: .6fr;
         justify-content: center;
     }
+    .swiper-container-horizontal > .swiper-pagination-bullets {
+        bottom: -1.5rem;
+    }
 }
 
 @media screen and (min-width:768px) {
@@ -1093,6 +1096,9 @@ header {
     }
     .project__data{
         padding-top: .8rem;
+    }
+    .swiper-container-horizontal > .swiper-pagination-bullets {
+        bottom: -2rem;
     }
     .footer__container{
         grid-template-columns: repeat(3,1fr);
