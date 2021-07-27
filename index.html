@@ -30,6 +30,13 @@
 </head>
 
 <body>
+    <!-- ===================== LOADER ==================== -->
+    <div id="loading">
+        <div class="loader">
+            <span><</span><span>/></span>
+        </div>
+      </div>
+
     <!--==================== HEADER ====================-->
     <header class="header" id="header">
         <nav class="nav container">
@@ -702,6 +709,13 @@
 
     <!--==================== MAIN JS ====================-->
     <script src="assets/js/main.js"></script>
+
+    <!-- ===================== SHOW/HIDE LOADER ==================== -->
+    <script>
+        window.onload = function(){ 
+            document.getElementById("loading").style.display = "none" 
+        }
+    </script>
 </body>
 
 </html>
