@@ -1,10 +1,15 @@
 ## Responsive Personal Portfolio Website 
 ### [Visit Website](https://animesh-rawat.web.app/)
 
-### Improvements 
+### Features
 ```
-1. Make PWA
-2. Improve overall ratings as per lighthouse auditing
-3. Offine mode support
-4. 404 page to show error
+1. Dark and Light themes
+2. PWA features
+3. Offline caching
+```
+
+### Future Improvements 
+```
+1. Improve overall ratings as per lighthouse auditing
+2. 404 page to show error
 ```
