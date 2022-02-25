@@ -4,11 +4,50 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--==================== UNICONS ====================-->
-
     <link
       rel="stylesheet"
       href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
     />
+
+    <!-- ====================PWA================== -->
+    <link rel="manifest" href="manifest.json" />
+    <!-- ios support -->
+    <link rel="apple-touch-icon" href="/assets/img/PwaImages/ios/32.png" />
+    <link rel="apple-touch-icon" href="/assets/img/PwaImages/ios/72.png" />
+    <link rel="apple-touch-icon" href="/assets/img/PwaImages/ios/100.png" />
+    <link rel="apple-touch-icon" href="/assets/img/PwaImages/ios/128.png" />
+    <link rel="apple-touch-icon" href="/assets/img/PwaImages/ios/144.png" />
+    <link rel="apple-touch-icon" href="/assets/img/PwaImages/ios/152.png" />
+    <link rel="apple-touch-icon" href="/assets/img/PwaImages/ios/192.png" />
+    <link rel="apple-touch-icon" href="/assets/img/PwaImages/ios/256.png" />
+    <link rel="apple-touch-icon" href="/assets/img/PwaImages/ios/512.png" />
+    <meta name="apple-mobile-web-app-status-bar" content="#6E57E0" />
+    <meta name="theme-color" content="#6E57E0" />
+
+    <!-- ============FAVICONS============== -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/assets/img/favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/assets//img/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/assets/img/favicons/favicon-16x16.png"
+    />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/assets/img/favicons/favicon.ico"
+    />
+
     <!--==================== SWIPER CSS ====================-->
     <link rel="stylesheet" href="/assets/css/swiper-bundle.min.css" />
 
@@ -835,6 +874,18 @@
       window.onload = function () {
         document.getElementById("loading").style.display = "none";
       };
+    </script>
+
+    <!-- =====================REGISTER SERVICE WORKER================ -->
+    <script>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", function () {
+          navigator.serviceWorker
+            .register("/serviceWorker.js")
+            .then((res) => console.log("service worker registered"))
+            .catch((err) => console.log("service worker not registered", err));
+        });
+      }
     </script>
   </body>
 </html>
