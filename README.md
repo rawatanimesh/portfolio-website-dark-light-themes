@@ -12,4 +12,5 @@
 ```
 1. Improve overall ratings as per lighthouse auditing
 2. 404 page to show error
+3. Contact form
 ```
