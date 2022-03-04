@@ -6,6 +6,7 @@
 1. Dark and Light themes
 2. PWA features
 3. Offline caching
+4. Auto switch to dark mode based on browser/OS setting
 ```
 
 ### Future Improvements 
@@ -13,5 +14,4 @@
 1. Improve overall ratings as per lighthouse auditing
 2. 404 page to show error
 3. Contact form
-4. Auto switch to dark mode based on browser/OS setting
 ```
