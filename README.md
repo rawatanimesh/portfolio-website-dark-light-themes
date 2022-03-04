@@ -12,4 +12,6 @@
 ```
 1. Improve overall ratings as per lighthouse auditing
 2. 404 page to show error
+3. Contact form
+4. Auto switch to dark mode based on browser/OS setting
 ```
