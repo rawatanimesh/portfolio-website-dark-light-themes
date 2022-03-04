@@ -4,9 +4,9 @@
 ### Features
 ```
 1. Dark and Light themes
-2. PWA features
-3. Offline caching
-4. Auto switch to dark mode based on browser/OS setting
+2. Auto switch to dark mode based on browser/OS setting
+3. PWA features
+4. Offline caching
 ```
 
 ### Future Improvements 
