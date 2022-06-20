@@ -1,5 +1,5 @@
 # Responsive Personal Portfolio Website 
-A great professional looking personal website to showcase your development portfolio.
+A great professional looking and fully responsive personal website to showcase your development portfolio.
 
 ## Feature List and Screenshots
 ### [Visit Website](https://animesh-rawat.web.app/)
@@ -11,6 +11,8 @@ A great professional looking personal website to showcase your development portf
 3. PWA features
 4. Offline caching
 5. Relevant meta tags to boost SEO ranking
+6. Fully responsive for all screen sizes
+7. Add your own CV/resume for others to download
 ```
 
 ### Switch between light and dark theme
@@ -24,6 +26,13 @@ A great professional looking personal website to showcase your development portf
 <img width="1364" alt="Screenshot 2022-06-20 at 5 58 29 PM" src="https://user-images.githubusercontent.com/25823744/174601983-1cb9bbd5-cf91-4f5c-bff8-55fb14ea2845.png">
 <img width="1129" alt="Screenshot 2022-06-20 at 5 59 24 PM" src="https://user-images.githubusercontent.com/25823744/174601986-7b9c88ad-8ad5-495c-811a-65a891c1add1.png">
 <img width="1330" alt="Screenshot 2022-06-20 at 5 59 49 PM" src="https://user-images.githubusercontent.com/25823744/174601991-2edc90a0-aea5-4252-90f9-561dca7050a0.png">
+
+### Mobile and Tablet responsive layout
+<img width="337" alt="Screenshot 2022-06-20 at 6 14 16 PM" src="https://user-images.githubusercontent.com/25823744/174604852-1ef1b738-1ed4-4628-a735-8186a0b7f532.png">
+<img width="338" alt="Screenshot 2022-06-20 at 6 14 38 PM" src="https://user-images.githubusercontent.com/25823744/174604866-5d5de2f5-0827-4b9e-994e-ffef3001aff1.png">
+<img width="331" alt="Screenshot 2022-06-20 at 6 14 53 PM" src="https://user-images.githubusercontent.com/25823744/174604870-584e8517-3250-4634-b722-20a992f3f105.png">
+<img width="328" alt="Screenshot 2022-06-20 at 6 16 24 PM" src="https://user-images.githubusercontent.com/25823744/174604872-4ba1f140-b70c-4835-9b31-92b13c61164b.png">
+<img width="329" alt="Screenshot 2022-06-20 at 6 16 41 PM" src="https://user-images.githubusercontent.com/25823744/174604881-84f4d88e-e4d8-4d8d-a536-2da72ab56fc7.png">
 
 ### Future Improvements 
 ```
