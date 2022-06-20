@@ -1,5 +1,5 @@
 # Responsive Personal Portfolio Website 
-A great professional looking personal website for your to showcase your development portfolio.
+A great professional looking personal website to showcase your development portfolio.
 
 ## Feature List and Screenshots
 ### [Visit Website](https://animesh-rawat.web.app/)
