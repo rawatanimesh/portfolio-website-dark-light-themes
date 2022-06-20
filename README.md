@@ -1,4 +1,7 @@
-## Responsive Personal Portfolio Website 
+# Responsive Personal Portfolio Website 
+A great professional looking personal website for your development portfolio.
+
+## Feature List and Screenshots
 ### [Visit Website](https://animesh-rawat.web.app/)
 
 ### Features
@@ -7,6 +10,7 @@
 2. Auto switch to dark mode based on browser/OS setting
 3. PWA features
 4. Offline caching
+5. Relevant meta tags to boost your SEO ranking
 ```
 
 ### Switch between light and dark theme
