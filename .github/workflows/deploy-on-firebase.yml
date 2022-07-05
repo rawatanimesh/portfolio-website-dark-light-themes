@@ -1,20 +1,20 @@
-name: Deploy Website on Firebase
-
+name: Build and Deploy
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
-  deploy_live_website:
+  deploy:
+    name: Deploy
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      # Add any build steps here. For example:
-      # - run: npm ci && npm run build
-      - uses: FirebaseExtended/action-hosting-deploy@v0
+      - name: Deploy to Firebase
+        uses: w9jds/firebase-action@master
         with:
-          repoToken: "${{ secrets.GITHUB_TOKEN }}"
-          firebaseServiceAccount: "${{ secrets.FIREBASE_SERVICE_ACCOUNT }}"
-          projectId: animesh-rawat
-          channelId: live
+          args: deploy --only hosting
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_ANIMESH_RAWAT }}
+
+          
+          
