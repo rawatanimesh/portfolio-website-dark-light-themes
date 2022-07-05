@@ -3,7 +3,7 @@ name: Deploy Website on Firebase
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   deploy_live_website:
