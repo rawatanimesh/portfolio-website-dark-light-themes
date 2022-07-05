@@ -1,20 +1,22 @@
-name: Build and Deploy
+name: CI
+
 on:
   push:
     branches:
-      - master
+    - master
 
 jobs:
-  deploy:
-    name: Deploy
+  firebase-deploy:
+
     runs-on: ubuntu-latest
+
     steps:
-      - name: Deploy to Firebase
-        uses: w9jds/firebase-action@master
-        with:
-          args: deploy --only hosting
-        env:
-          FIREBASE_TOKEN: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_ANIMESH_RAWAT }}
+    - uses: actions/checkout@master
+    - uses: w9jds/firebase-action@master
+      with:
+        args: deploy --only hosting
+      env:
+        FIREBASE_TOKEN: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_ANIMESH_RAWAT }}
 
           
           
