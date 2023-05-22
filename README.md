@@ -15,6 +15,11 @@ A great professional looking and fully responsive personal website to showcase y
 7. Add your own CV/resume for others to download
 ```
 
+### Improvements
+```
+1. Improve lighthouse score
+```
+
 ### Switch between light and dark theme
 
 <img width="1421" alt="Light theme about me section" src="https://user-images.githubusercontent.com/25823744/174600940-5196338c-b63c-4886-9084-68abbbb02ce5.png">
